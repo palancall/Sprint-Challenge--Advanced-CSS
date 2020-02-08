@@ -1,0 +1,18 @@
+1. What is the difference between an adaptive website and a fully responsive website?
+Adaptive websites are fixed layouts that users media queries for breakpoints.
+Resposive websites use relative unites like 5% and also uses media queries for breakpoints.
+
+2. Describe what it means to be mobile first vs desktop first.
+It means that media queries are designed with min-width.
+
+
+3. What does font-size: 62.5% in the html tag do for us when using rem units?
+62.5% is equivalent to 10px. It allows us to siplified the calculation for size. 1rem = 10px.
+
+4. How would you describe preprocessing to someone new to CSS?
+It allows us to write less code.
+
+5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favirite concept are mixins because the allow us to siplify our code in a big way.
+Function so far have been the most complex concept.
