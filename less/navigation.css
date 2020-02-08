@@ -1,0 +1,9 @@
+.navigation {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  background: red;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+}
