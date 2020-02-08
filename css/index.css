@@ -180,6 +180,9 @@ html body {
 @media (max-width: 500px) {
   .navigation {
     width: 99%;
+    background: rgba(246, 246, 246, 0.3);
+    position: sticky;
+    top: 0;
   }
 }
 .navigation nav {
@@ -227,6 +230,7 @@ footer {
 @media (max-width: 500px) {
   .home {
     width: 98%;
+    border-radius: 0;
   }
 }
 @media (max-width: 500px) {
@@ -259,10 +263,10 @@ footer {
   width: 100%;
 }
 .home .space-images img {
-  width: 28%;
   margin: 20px 2.5%;
-  border-radius: 20px;
   height: 100%;
+  width: 28%;
+  border-radius: 20px;
 }
 @media (max-width: 500px) {
   .home .space-images img {
@@ -361,7 +365,7 @@ footer {
   }
 }
 .home .walk .walk-img img {
-  width: 100%;
   height: auto;
-  border-radius: 10px;
+  width: 100%;
+  border-radius: 20px;
 }
