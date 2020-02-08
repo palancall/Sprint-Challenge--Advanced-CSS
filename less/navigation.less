@@ -3,27 +3,45 @@
 .navigation {
   display: flex;
   flex-direction: column;
-  width: 55%;
+  width: 950px;
+
   background: @nav-bg;
   justify-content: center;
   align-items: center;
+
+  @media @phone {
+    width: 99%;
+  }
 
   nav {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
-
     width: 50%;
+
+    @media @phone {
+      width: 80%;
+      justify-content: space-around;
+    }
+
     a {
       font-size: 1.6rem;
       text-decoration: none;
       color: @nav-font;
       justify-content: space-around;
+
+      @media @phone {
+        font-size: 1.4rem;
+      }
     }
   }
 
   .logo {
     font-size: 4rem;
     padding: 1.5rem 0;
+
+    @media @phone {
+      font-size: 3.5rem;
+    }
   }
 }
